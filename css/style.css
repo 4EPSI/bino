@@ -97,7 +97,7 @@ img {
 .section_benefit {
   padding-top: 30px;
 }
-.section_benefit .container{
+.section_benefit .container {
   display: flex;
 }
 .icon {
@@ -150,4 +150,7 @@ img {
 .section_about_content {
   padding: 15px;
   width: 50%;
+}
+/* section_services */
+.section_services_fon {
 }
