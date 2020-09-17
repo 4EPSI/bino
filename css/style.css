@@ -110,7 +110,7 @@ img {
 .benefit_descr {
   padding: 15px;
 }
-.benefit_descr: :last-child {
+.benefit_descr:last-child {
   margin-right: 0;
 }
 .section_benefit_title {
