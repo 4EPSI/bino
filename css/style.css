@@ -207,3 +207,6 @@ img {
 .section_case {
   display: flex;
 }
+.section_case img {
+  display: block;
+}
