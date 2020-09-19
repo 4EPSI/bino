@@ -33,10 +33,11 @@ img {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-.section_text {
+.text {
   color: #999999;
   font-size: 14px;
 }
+
 /* header */
 .header {
 }
@@ -203,10 +204,17 @@ img {
   color: #999999;
   font-size: 14px;
 }
-/* section_case */
-.section_case {
+/* section_block */
+.section_block {
   display: flex;
 }
-.section_case img {
+.section_block img {
   display: block;
+}
+/* section_case */
+.section_case {
+  text-align: center;
+}
+.section_case_content {
+  background: black;
 }
