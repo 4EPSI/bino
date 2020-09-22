@@ -360,3 +360,101 @@ img {
   justify-content: center;
   align-items: center;
 }
+/* section_blog */
+.section_blog {
+  text-align: center;
+}
+.blog {
+  display: flex;
+}
+.blog_red {
+  background: #e74e3e;
+  width: 25%;
+}
+.blog img {
+  display: block;
+}
+.art_title {
+  color: #ffffff;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+.blog_title {
+  color: #ffffff;
+  font-size: 24px;
+  padding-left: 15px;
+}
+.blog_text {
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 15px;
+}
+/* section_contact */
+.section_contact {
+  text-align: center;
+}
+.section_title {
+  color: #e74e3e;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.contact {
+  background: #ffffff;
+  padding-top: 30px;
+  text-align: initial;
+  padding-bottom: 30px;
+  width: 500px;
+  padding-left: 30px;
+}
+.contact_text {
+  color: #999999;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.contact_form {
+
+}
+.send {
+  text-decoration: none;
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #404041;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+}
+
+/* section_start */
+.section_start {
+  text-align: center;
+  background-image: url(../img/road.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: calc(81vh - 475px);
+  display: flex;
+}
+.section_start_text {
+  color: #fff;
+  font-size: 16px;
+}
+/* footer */
+.footer {
+  background: black;
+}
+.footer .container {
+  background: black;
+}
+.footer_info {
+  color: #d1d1d1;
+  background: black;
+  padding: 30px;
+}
+.footer_info a {
+  margin-right: 15px;
+}
