@@ -337,11 +337,11 @@ img {
   flex-direction: column;
   background: #ffffff;
   height: 120px;
-    width: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    overflow: hidden;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .section_cash {
