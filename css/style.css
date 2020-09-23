@@ -42,7 +42,7 @@ img {
 
 .button {
   text-decoration: none;
-  background: #017ec1;
+  background: #e74c3c;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -55,6 +55,11 @@ img {
   transition: all 0.3s ease;
   cursor: pointer;
 }
+.button_clear {
+  background: none;
+  color: #fff;
+  border: 1px solid currentColor;
+}
 .text {
   color: #999999;
   font-size: 14px;
@@ -66,6 +71,13 @@ img {
 
 /* header */
 .header {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    color: #fff;
 }
 .header .container {
   display: flex;
@@ -88,17 +100,17 @@ img {
   text-decoration: underline;
 }
 /* main */
-.main {
+/* .main {
   background: #f4f5f9;
-}
+} */
 /* section_top */
 .section_top {
-  background-image: url(../img/welcome.png);
+  background-image: url(../img/welcome.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  min-height: calc(100vh - 80px);
+  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -153,6 +165,13 @@ img {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+.section_benefit_title_red {
+  color: #e74c3c;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
 .section_benefit_text {
   color: #999999;
   font-size: 14px;
@@ -295,6 +314,9 @@ img {
   font-size: 36px;
   padding-bottom: 15px;
 }
+.pricing {
+
+}
 
 .section_cash {
   display: flex;
@@ -413,20 +435,21 @@ img {
   padding-bottom: 30px;
 }
 .contact_form {
-
+  display: flex;
+  flex-direction: column;
 }
-.send {
-  text-decoration: none;
-  background: #ffffff;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: #404041;
-  display: inline-block;
-  text-align: center;
+.contact_form input,
+.contact_form textarea {
   border: none;
-  text-transform: uppercase;
+  border-bottom: 1px solid #e5e5e5;
+}
+.contact_form textarea {
+  resize: none;
+  padding: 15px;
+  height: 150px;
+}
+.contact_form button {
+  margin-right: auto;
 }
 
 /* section_start */
@@ -442,6 +465,7 @@ img {
 .section_start_text {
   color: #fff;
   font-size: 16px;
+  padding-bottom: 30px;
 }
 /* footer */
 .footer {
@@ -457,4 +481,9 @@ img {
 }
 .footer_info a {
   margin-right: 15px;
+}
+.footer_info a:hover {
+  background: #e74c3c;
+  color: #fff;
+  border-radius: 30px;
 }
