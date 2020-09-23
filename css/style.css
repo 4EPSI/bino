@@ -85,6 +85,9 @@ img {
   justify-content: space-between;
   height: 100%;
 }
+.logo {
+  height: 100%;
+}
 .menu {
   display: flex;
   align-items: center;
@@ -114,7 +117,13 @@ img {
   display: flex;
   align-items: center;
 }
-
+.section_top_buttons {
+  display: flex;
+}
+.section_top_buttons .button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
 .section_top .container {
   display: flex;
   flex-direction: column;
@@ -199,6 +208,9 @@ img {
 .section_about_text {
   color: #999999;
   font-size: 14px;
+}
+.section_about_text p {
+  margin-bottom: 15px;
 }
 .section_about_content {
   padding: 15px;
@@ -309,13 +321,27 @@ img {
   text-align: center;
   background: #fff;
 }
+.block_text {
+  padding: 10px;
+}
+.section_cash_top {
+  background: #999;
+}
 .section_pricing_title {
   color: #6a6a6a;
   font-size: 36px;
   padding-bottom: 15px;
 }
 .pricing {
-
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .section_cash {
@@ -335,13 +361,11 @@ img {
   color: #999999;
   font-size: 14px;
   background: #f4f5f9;
-  height: 400px;
+  height: 250px;
 }
 .section_cash_title {
   color: #ffffff;
   font-size: 24px;
-  background: #999;
-  height: 200px;
   padding-top: 30px;
 }
 .section_pricing_content {
