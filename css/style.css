@@ -70,6 +70,21 @@ img {
   font-size: 18px;
   margin-bottom: 10px;
 }
+.decoration {
+  display: flex;
+}
+.decoration_top {
+  height: 35px;
+  background: #e74e3e;
+  margin-bottom: 5px;
+  width: 5px;
+}
+.decoration_line {
+  height: 1px;
+  width: 100%;
+  background: #c8c7c7;
+  margin-bottom: 5px;
+}
 
 /* header */
 .header {
@@ -216,6 +231,15 @@ img {
 .benefit_descr:last-child {
   margin-right: 0;
 }
+.benefit_img {
+  padding: 30px;
+}
+.benefit_img img {
+  border-width: 1px;
+  border-style: solid;
+  border-color: darkgray;
+  padding: 20px;
+}
 .section_benefit_title {
   color: #6a6a6a;
   font-size: 18px;
@@ -252,6 +276,7 @@ img {
   color: #6a6a6a;
   font-size: 36px;
   padding-bottom: 20px;
+  padding-left: 30px;
 }
 .section_about_text {
   color: #999999;
