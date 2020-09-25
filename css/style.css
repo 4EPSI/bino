@@ -437,6 +437,10 @@ img {
 .score:last-child {
   margin-right: 0;
 }
+.score_icon {
+  color: #fff;
+  padding: 30px;
+}
 /* section_pricing */
 .section_pricing {
   text-align: center;
