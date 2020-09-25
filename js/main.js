@@ -22,3 +22,25 @@ $('body').on('click', '.go_to', function () {
     $('.menu').removeClass('active');
     return false;
 });
+
+// Header
+var viewportheight = $( window ).height(),
+    currentTop = $(this).scrollTop(),
+    header = $('.header').outerHeight();
+    
+// Header changing on Load
+if (currentTop >= header) {
+    $('.header').addClass('active');
+} else {
+    $('.header').removeClass('active');
+}
+// Header changing on Scroll
+$(document).scroll(function(){
+    viewportheight = $( window ).height();
+    currentTop = $(this).scrollTop();
+    if (currentTop >= header) {
+        $('.header').addClass('active');
+    } else {
+        $('.header').removeClass('active');
+    }
+});
