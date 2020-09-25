@@ -44,3 +44,17 @@ $(document).scroll(function(){
         $('.header').removeClass('active');
     }
 });
+
+// Top slider
+$('.top_slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    mouseDrag: false,
+    items: 1,
+    navText: [
+        '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+        '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+    ]
+});
