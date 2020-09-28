@@ -58,3 +58,13 @@ $('.top_slider').owlCarousel({
         '<i class="fa fa-angle-right" aria-hidden="true"></i>'
     ]
 });
+
+// Case slider
+$('.case_slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: true,
+    mouseDrag: false,
+    items: 1
+});
