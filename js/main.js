@@ -60,7 +60,7 @@ $('.top_slider').owlCarousel({
 });
 
 // Case slider
-$('.case_slider').owlCarousel({
+$('.creative_slider').owlCarousel({
     loop: true,
     margin: 10,
     nav: false,
@@ -68,3 +68,4 @@ $('.case_slider').owlCarousel({
     mouseDrag: false,
     items: 1
 });
+
