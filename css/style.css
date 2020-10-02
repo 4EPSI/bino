@@ -1166,7 +1166,7 @@ html {
   .section_benefit,
   .section_case,
   .section_score,
-  .blog_content,
+  
   .section_pricing {
     
     flex-wrap: wrap;
@@ -1176,5 +1176,14 @@ html {
   }
   .section_cash_text {
     height: 300px;
+  }
+  .blog_red {
+    height: 100%;
+  }
+  .blog_img {
+    height: 100%;
+  }
+  .contact {
+    width: 100%;
   }
 }
