@@ -1211,11 +1211,20 @@ html {
   }
   .contact {
     width: 100%;
-    padding: 0;
+  }
+  .block_form {
+    width: 100%;
+  }
+  .content_contact {
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .section_score .container {
     display: flex;
     justify-content: center;
+  }
+  .section_services_title {
+    font-size: 15px;
   }
   /* .score_icon {
     padding: 10px;
