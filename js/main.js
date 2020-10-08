@@ -66,6 +66,10 @@ $('.creative_slider').owlCarousel({
     nav: false,
     dots: true,
     mouseDrag: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    smartSpeed: 500,
     items: 1
 });
 
@@ -77,4 +81,10 @@ $('.services_slider').owlCarousel({
     dots: true,
     mouseDrag: false,
     items: 1
+});
+
+// tabs
+$('.work_media span').on('click', function () {
+    $('.work_media span').removeClass('active');
+    $(this).addClass('active');
 });
