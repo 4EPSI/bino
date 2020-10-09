@@ -27,7 +27,7 @@ $('body').on('click', '.go_to', function () {
 var viewportheight = $( window ).height(),
     currentTop = $(this).scrollTop(),
     header = $('.header').outerHeight();
-    
+
 // Header changing on Load
 if (currentTop >= header) {
     $('.header').addClass('active');
@@ -48,7 +48,7 @@ $(document).scroll(function(){
 // Top slider
 $('.top_slider').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 0,
     nav: true,
     dots: false,
     mouseDrag: false,
