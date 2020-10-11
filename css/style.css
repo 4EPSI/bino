@@ -646,6 +646,7 @@ html {
 /* secion_work */
 .secion_work {
   text-align: center;
+  padding-top: 30px;
 }
 .secion_work_title {
   color: #6a6a6a;
@@ -656,12 +657,12 @@ html {
 .secion_work_text {
   color: #999999;
   font-size: 14px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .secion_work_media {
   color: #999999;
   font-size: 14px;
-  padding-bottom: 30px;
+  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -896,6 +897,12 @@ html {
   transform: translateY(60px);
   box-shadow: 0px 0px 0px 6px rgb(255 255 255 / 0.5);
   color: #999999;
+}
+.money {
+  font-size: 39px;
+}
+.pricing_text {
+  font-size: 13px;
 }
 .pricing.red {
   color: #e74e3e;
@@ -1415,6 +1422,7 @@ html {
   .work_item {
     height: auto;
     width: 50%;
+    padding: 5px;
   }
   .contact {
     width: 100%;
@@ -1436,7 +1444,7 @@ html {
     height: 55px;
   }
   .section_score_text {
-    font-size: 13px;
+    font-size: 11px;
   }
   .section_services_title {
     font-size: 30px;
@@ -1465,6 +1473,7 @@ html {
 
   .section_pricing_content {
     margin-right: 0;
+    width: 100%;
   }
   .section_benefit .container {
     flex-wrap: wrap;
@@ -1483,6 +1492,11 @@ html {
   }
   .partner {
     flex-wrap: wrap;
+  }
+  .partner_img {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .secion_work_media {
     flex-wrap: wrap;
